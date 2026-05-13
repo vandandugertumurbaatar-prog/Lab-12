@@ -4,7 +4,6 @@ public class Main1 {
         
         Bank b2 = Bank.getInstance(999, "Bold", 0, "USD", 0, 0);
 
-        System.out.println("Main1 (Bank Singleton):");
         System.out.println("First call owner: " + b1.getOwnerName());
         System.out.println("Second call owner: " + b2.getOwnerName());
         
