@@ -6,9 +6,5 @@ public class Main1 {
 
         System.out.println("First call owner: " + b1.getOwnerName());
         System.out.println("Second call owner: " + b2.getOwnerName());
-        
-        if (b1 == b2) {
-            System.out.println("Result: Both variables point to the SAME instance.");
-        }
     }
 }
