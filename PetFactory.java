@@ -1,12 +1,12 @@
 class PetFactory {
     public static Pet createPet(String type) {
-        if ("Dog".equalsIgnoreCase(type)) {
+        if ("Dog".equals(type)) {
             return new Dog();
         }
-        if ("Cat".equalsIgnoreCase(type)) {
+        if ("Cat".equals(type)) {
             return new Cat();
         }
-        if ("Bird".equalsIgnoreCase(type)) {
+        if ("Bird".equals(type)) {
             return new Bird();
         }
         throw new IllegalArgumentException("Unknown pet type");
