@@ -1,6 +1,5 @@
 public class Main2 {
     public static void main(String[] args) {
-        System.out.println("Main2 (Pet Simple Factory):");
         
         Pet p1 = PetFactory.createPet("Dog");
         Pet p2 = PetFactory.createPet("Cat");
