@@ -1,6 +1,5 @@
 public class Main3 {
     public static void main(String[] args) {
-        System.out.println("Main3 (Student Prototype):");
         
         int[] scores = {90, 80, 70};
         UnderGraduateStudent s1 = new UnderGraduateStudent("Saruul", scores);
